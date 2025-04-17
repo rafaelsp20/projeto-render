@@ -13,6 +13,8 @@ export class ClienteController {
 
   @Get()
   findAll() {
-    return this.clienteService.findAll();
+    return ['cliente1', 'cliente2'];
   }
+
+
 }
